@@ -6,74 +6,109 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "const perguntas = [
-    {
-        enunciado: "Pergunta 1",
+        enunciado: "Quais são os principais produtores nos ecossistemas marinhos?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            {
+                texto: "Algas",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Corais",
+                afirmacao: "afirmação"
+            }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "O que são as zonas abissais nos oceanos?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            {
+                texto: "Zonas mais rasas próximas á costa",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Zonas mais profundas e escuras do oceanos",
+                afirmacao: "afirmação"
+            }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Qual é o animal conhecido como jardineiro dos recifes de coral",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            {
+                texto: "Ouriço-do-mar",
+                afirmacao: ""
+            },
+            {
+                texto: "Peixe-palhaço",
+                afirmacao: "afirmação"
+            }
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "Qual é o maior ecossistema marinho do mundo?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            {
+                texto: "Recifes de coral",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Mar aberto",
+                afirmacao: "afirmação"
+            }
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "O que são as zonas neríticas nos oceanos?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
-        ]
-    }
-];",
-        alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
-        ]
-    },
-    {
-        enunciado: "Pergunta 2",
-        alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            {
+                texto: "Zonas profundas com alta pressão atmosférica",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Zonas costeiras até onde chega a luz solar",
+                afirmacao: "afirmação"
+            }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Qual é o objetivo da bioluminescência em muitos organismos marinhos?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            {
+                texto: "Atrair presas ou parceiros",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Proteger-se de predadores",
+                afirmacao: "afirmação"
+            }
         ]
     },
-    {
-        enunciado: "Pergunta 4",
-        alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
-        ]
-    },
-    {
-        enunciado: "Pergunta 5",
-        alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
-        ]
-    }
 ];
+
+let atual = 0;
+let perguntaAtual;
+let historiaFinal = "";
+
+function mostraPergunta() {
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    mostraAlternativas();
+}
+
+function mostraAlternativas(){
+    for(const alternativa of perguntaAtual.alternativas) {
+        const botaoAlternativas = document.createElement("button");
+        botaoAlternativas.textContent = alternativa.texto;
+        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
+        caixaAlternativas.appendChild(botaoAlternativas);
+    }
+}
+
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
+    historiaFinal = afirmacoes;
+    atual++;
+    mostraPergunta();
+}
+
+mostraPergunta();
