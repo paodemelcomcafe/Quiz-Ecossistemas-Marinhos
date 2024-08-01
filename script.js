@@ -36,7 +36,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Ouriço-do-mar",
-                afirmacao: ""
+                afirmacao: "afirmação"
             },
             {
                 texto: "Peixe-palhaço",
