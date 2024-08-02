@@ -9,11 +9,11 @@ const perguntas = [
         enunciado: "Quais são os principais produtores nos ecossistemas marinhos?",
         alternativas: [
             {
-                texto: "Algas",
+                texto: "A)Algas",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Corais",
+                texto: "B)Corais",
                 afirmacao: "afirmação"
             }
         ]
@@ -22,11 +22,11 @@ const perguntas = [
         enunciado: "O que são as zonas abissais nos oceanos?",
         alternativas: [
             {
-                texto: "Zonas mais rasas próximas á costa",
+                texto: "A)Zonas mais profundas e escuras dos oceanos",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Zonas mais profundas e escuras do oceanos",
+                texto: "B)Zonas mais rasas próximas á costa",
                 afirmacao: "afirmação"
             }
         ]
@@ -61,11 +61,11 @@ const perguntas = [
         enunciado: "O que são as zonas neríticas nos oceanos?",
         alternativas: [
             {
-                texto: "Zonas profundas com alta pressão atmosférica",
+                texto: "A)Zonas costeiras até onde chega a luz solar",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Zonas costeiras até onde chega a luz solar",
+                texto: "B)Zonas profundas com alta pressão atmosférica",
                 afirmacao: "afirmação"
             }
         ]
@@ -74,11 +74,11 @@ const perguntas = [
         enunciado: "Qual é o objetivo da bioluminescência em muitos organismos marinhos?",
         alternativas: [
             {
-                texto: "Atrair presas ou parceiros",
+                texto: "A)Atrair presas ou parceiros",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Proteger-se de predadores",
+                texto: "B)Proteger-se de predadores",
                 afirmacao: "afirmação"
             }
         ]
@@ -87,7 +87,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = "Se você selecionou a maioria alternativa A, você tem conhecimento básico sobre ecossistemas marinhos ";
 
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
