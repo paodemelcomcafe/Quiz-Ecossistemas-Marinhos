@@ -53,7 +53,7 @@ const perguntas = [
             },
             {
                 texto: "B)Mar aberto",
-                afirmacao: "Uma pessoa nem tanto curiosa."
+                afirmacao: "Uma pessoa nem tanto curiosa mas pode vir a se interessar pelo assunto."
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Zonas costeiras até onde chega a luz solar",
-                afirmacao: "Está sempre aberto a saber mais sobre o assunto."
+                afirmacao: "Está aberto a aprender mais."
             },
             {
                 texto: "B)Zonas profundas com alta pressão atmosférica",
-                afirmacao: "Pensa que algumas informações são desnecessárias de saber."
+                afirmacao: "Pensa que algumas informações podem não ser necessárias de saber."
             }
         ]
     },
