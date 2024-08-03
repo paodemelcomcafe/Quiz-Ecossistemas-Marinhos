@@ -118,7 +118,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Se respondeu A na maioria das alternativas, você tem um básico conhecimento sobre ecossistemas marinhos";
+    caixaPerguntas.textContent = "Obrigado por fazer o quiz! ⭒-.⋆🪼⋆.-⭒";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
