@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Algas",
-                afirmacao: "afirmação"
+                afirmacao: "Básico conhecimento"
             },
             {
                 texto: "B)Corais",
-                afirmacao: "afirmação"
+                afirmacao: "Pouco conhecimento"
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Zonas mais profundas e escuras dos oceanos",
-                afirmacao: "afirmação"
+                afirmacao: "Básico conhecimento"
             },
             {
                 texto: "B)Zonas mais rasas próximas á costa",
-                afirmacao: "afirmação"
+                afirmacao: "Pouco conhecimento"
             }
         ]
     },
@@ -35,12 +35,12 @@ const perguntas = [
         enunciado: "Qual é o animal conhecido como jardineiro dos recifes de coral",
         alternativas: [
             {
-                texto: "Ouriço-do-mar",
-                afirmacao: "afirmação"
+                texto: "A)Ouriço-do-mar",
+                afirmacao: "Básico conhecimento"
             },
             {
-                texto: "Peixe-palhaço",
-                afirmacao: "afirmação"
+                texto: "B)Peixe-palhaço",
+                afirmacao: "Pouco conhecimento"
             }
         ]
     },
@@ -48,12 +48,12 @@ const perguntas = [
         enunciado: "Qual é o maior ecossistema marinho do mundo?",
         alternativas: [
             {
-                texto: "Recifes de coral",
-                afirmacao: "afirmação"
+                texto: "A)Recifes de coral",
+                afirmacao: "Básico conhecimento"
             },
             {
-                texto: "Mar aberto",
-                afirmacao: "afirmação"
+                texto: "B)Mar aberto",
+                afirmacao: "Pouco conhecimento"
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Zonas costeiras até onde chega a luz solar",
-                afirmacao: "afirmação"
+                afirmacao: "Básico conhecimento"
             },
             {
                 texto: "B)Zonas profundas com alta pressão atmosférica",
-                afirmacao: "afirmação"
+                afirmacao: "Pouco conhecimento"
             }
         ]
     },
@@ -75,11 +75,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Atrair presas ou parceiros",
-                afirmacao: "afirmação"
+                afirmacao: "Básico conhecimento"
             },
             {
                 texto: "B)Proteger-se de predadores",
-                afirmacao: "afirmação"
+                afirmacao: "Pouco conhecimento"
             }
         ]
     },
