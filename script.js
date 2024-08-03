@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Algas",
-                afirmacao: "Básico conhecimento"
+                afirmacao: "Você provavelmente já ouviu falar sobre ecossistemas marinhos e tem algumas informações básicas."
             },
             {
                 texto: "B)Corais",
-                afirmacao: "Pouco conhecimento"
+                afirmacao: "Você não sabe muito sobre os ecossistemas marinhos."
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Zonas mais profundas e escuras dos oceanos",
-                afirmacao: "Básico conhecimento"
+                afirmacao: "Acha interessante aprender sobre."
             },
             {
                 texto: "B)Zonas mais rasas próximas á costa",
-                afirmacao: "Pouco conhecimento"
+                afirmacao: "Não se aprofunda tanto no assunto."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Ouriço-do-mar",
-                afirmacao: "Básico conhecimento"
+                afirmacao: "Você conhece sobre alguns animais que habitam os ecossistemas marinhos."
             },
             {
                 texto: "B)Peixe-palhaço",
-                afirmacao: "Pouco conhecimento"
+                afirmacao: "Você não sabe muito sobre os animais dos ecossistemas marinhos."
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Recifes de coral",
-                afirmacao: "Básico conhecimento"
+                afirmacao: "Uma pessoa curiosa."
             },
             {
                 texto: "B)Mar aberto",
-                afirmacao: "Pouco conhecimento"
+                afirmacao: "Uma pessoa nem tanto curiosa."
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Zonas costeiras até onde chega a luz solar",
-                afirmacao: "Básico conhecimento"
+                afirmacao: "Está sempre aberto a saber mais sobre o assunto."
             },
             {
                 texto: "B)Zonas profundas com alta pressão atmosférica",
-                afirmacao: "Pouco conhecimento"
+                afirmacao: "Pensa que algumas informações são desnecessárias de saber."
             }
         ]
     },
@@ -75,11 +75,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A)Atrair presas ou parceiros",
-                afirmacao: "Básico conhecimento"
+                afirmacao: "Bioluminescência deve ser o seu fenômeno favorito."
             },
             {
                 texto: "B)Proteger-se de predadores",
-                afirmacao: "Pouco conhecimento"
+                afirmacao: "Nunca ouviu falar em bioluminescência ou não lembra o que é."
             }
         ]
     },
